@@ -1,10 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-WpfWorkerApp-d0920206-3b5d-40a0-b441-70f89b1fefc2</UserSecretsId>
+    <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
